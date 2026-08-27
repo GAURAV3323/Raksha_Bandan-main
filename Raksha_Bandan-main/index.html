@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raksha Bandhan 2026 - रक्षा बंधन की हार्दिक शुभकामनाएं ( To all elder sisters</title>
+    <meta name="description" content="Celebrate Raksha Bandhan with beautiful 3D animations, traditional music, and heartfelt wishes. Experience the bond between brothers and sisters.">
+    <link rel="stylesheet" href="raksha-bandhan.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Devanagari:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Particles -->
+    <div id="particles-container"></div>
+    
+    <!-- Music Control -->
+    <div class="music-control">
+        <button id="music-toggle" class="music-btn">
+            <i class="fas fa-music"></i>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-heart"></i>
+                <span>Raksha Bandhan 2026</span>
+                <div class="creator-name" style="font-size: 12px; color: #ff4081; font-weight: 600;">
+                    Created by: Gaurav Tripathi
+                </div>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" data-section="home">होम</a></li>
+                <li><a href="#significance" data-section="significance">महत्व</a></li>
+                <li><a href="#wishes" data-section="wishes">शुभकामनाएं</a></li>
+                <li><a href="#gallery" data-section="gallery">गैलरी</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" tabindex="0" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hindi-text">रक्षा बंधन</span>
+                    <span class="english-text">Raksha Bandhan 2026</span>
+                </h1>
+                <p class="hero-subtitle">भाई-बहन के पवित्र रिश्ते का त्योहार</p>
+                <div class="hero-date">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>28 अगस्त 2026</span>
+                </div>
+                <button class="cta-button" onclick="startCelebration()">
+                    <span>उत्सव शुरू करें</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            
+            <!-- 3D Rakhi Animation -->
+            <div class="rakhi-container">
+                <div class="rakhi-3d">
+                    <div class="rakhi-center">
+                        <div class="rakhi-jewel"></div>
+                        <div class="rakhi-pattern"></div>
+                    </div>
+                    <div class="rakhi-threads">
+                        <div class="thread thread-1"></div>
+                        <div class="thread thread-2"></div>
+                        <div class="thread thread-3"></div>
+                        <div class="thread thread-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <div class="floating-flower flower-1">🌸</div>
+            <div class="floating-flower flower-2">🌺</div>
+            <div class="floating-flower flower-3">🌼</div>
+            <div class="floating-diya diya-1">🪔</div>
+            <div class="floating-diya diya-2">🪔</div>
+        </div>
+    </section>
+
+    <!-- Significance Section -->
+    <section id="significance" class="significance-section">
+        <div class="container">
+            <h2 class="section-title">रक्षा बंधन का महत्व</h2>
+            <div class="significance-grid">
+                <div class="significance-card" data-aos="fade-up">
+                    <div class="card-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>प्रेम का बंधन</h3>
+                    <p>रक्षा बंधन भाई-बहन के बीच अटूट प्रेम और स्नेह का प्रतीक है। यह पवित्र धागा उनके रिश्ते को और भी मजबूत बनाता है।</p>
+                </div>
+                <div class="significance-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>सुरक्षा का वचन</h3>
+                    <p>भाई अपनी बहन की रक्षा करने का प्रण लेता है और बहन अपने भाई की लंबी उम्र और खुशी की कामना करती है।</p>
+                </div>
+                <div class="significance-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-om"></i>
+                    </div>
+                    <h3>धार्मिक परंपरा</h3>
+                    <p>यह त्योहार हमारी समृद्ध सांस्कृतिक विरासत का हिस्सा है और पीढ़ियों से मनाया जा रहा है।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishes Section -->
+    <section id="wishes" class="wishes-section">
+        <div class="container">
+            <h2 class="section-title">रक्षा बंधन की शुभकामनाएं </h2>
+            <div class="wishes-container">
+                <div class="wish-card active" data-wish="0">
+                    <div class="wish-content">
+                        <h3>प्रेम और खुशी</h3>
+                        <p>"रक्षा बंधन के इस पावन अवसर पर आप सभी को ढेर सारी शुभकामनाएं। भगवान करे आपका यह पवित्र रिश्ता हमेशा खुशियों से भरा रहे।"</p>
+                    </div>
+                    <div class="wish-emoji">💝</div>
+                </div>
+                <div class="wish-card" data-wish="1">
+                    <div class="wish-content">
+                        <h3>आशीर्वाद</h3>
+                        <p>"राखी के इस पावन त्योहार पर आप सभी भाई-बहनों को मेरी हार्दिक शुभकामनाएं। आपका प्रेम सदा बना रहे।"</p>
+                    </div>
+                    <div class="wish-emoji">🙏</div>
+                </div>
+                <div class="wish-card" data-wish="2">
+                    <div class="wish-content">
+                        <h3>सुख-समृद्धि</h3>
+                        <p>"राखी के धागे से बंधे इस रिश्ते में प्रेम, खुशी और समृद्धि हमेशा बनी रहे। रक्षा बंधन की हार्दिक शुभकामनाएं।"</p>
+                    </div>
+                    <div class="wish-emoji">🌟</div>
+                </div>
+            </div>
+            <div class="wish-navigation">
+                <button class="nav-dot active" onclick="showWish(0)"></button>
+                <button class="nav-dot" onclick="showWish(1)"></button>
+                <button class="nav-dot" onclick="showWish(2)"></button>
+            </div>
+            <button class="share-btn" onclick="shareWish()">
+                <i class="fas fa-share-alt"></i>
+                शुभकामना साझा करें
+            </button>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">रक्षा बंधन गैलरी</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in">
+                    <div class="rakhi-design design-1">
+                        <div class="design-center"></div>
+                        <div class="design-petals">
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                            <div class="petal"></div>
+                        </div>
+                    </div>
+                    <h4>पारंपरिक राखी</h4>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="rakhi-design design-2">
+                        <div class="design-center"></div>
+                        <div class="design-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                        </div>
+                    </div>
+                    <h4>आधुनिक राखी</h4>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="rakhi-design design-3">
+                        <div class="design-center"></div>
+                        <div class="design-diamonds">
+                            <div class="diamond"></div>
+                            <div class="diamond"></div>
+                            <div class="diamond"></div>
+                            <div class="diamond"></div>
+                        </div>
+                    </div>
+                    <h4>हीरे की राखी</h4>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="rakhi-design design-4">
+                        <div class="design-center"></div>
+                        <div class="design-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                    </div>
+                    <h4>सितारा राखी</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <h3 style="font-size: 1.2rem;">रक्षा बंधन 2026</h3>
+                    <p style="font-size: 1rem;">भाई-बहन के प्रेम का पावन त्योहार</p>
+                </div>
+                <div class="footer-social" style="gap: 18px;">
+                    <a href="#" class="social-link" style="font-size: 1.5rem;" onclick="shareOnSocial('facebook')">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link" style="font-size: 1.5rem;" onclick="shareOnSocial('twitter')">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" style="font-size: 1.5rem;" onclick="shareOnSocial('whatsapp')">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/tf._gaurav_/?utm_source=ig_web_button_share_sheet" class="social-link" style="font-size: 1.5rem;" onclick="shareOnSocial('instagram')">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom" style="font-size: 0.95rem;">
+                <p>Created by: <strong>Gaurav Tripathi❤️</strong></p>
+                <p>&copy; 2025 Raksha Bandhan Celebration. Made with ❤️ for brothers and sisters everywhere.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Audio element for background music -->
+    <audio id="background-music" loop>
+        <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="raksha-bandhan.js"></script>
+    <script>
+    // Hamburger menu for mobile
+    document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        hamburger.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+        });
+    });
+    </script>
+</body>
+</html>
+
